@@ -1,0 +1,25 @@
+# Build outputs
+/target/
+
+# Logs
+/logs/
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE/editor
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+
+# Java artifacts
+*.class
+
+# Generated upgrade workspace artifacts (optional to track, default ignore)
+.github/java-upgrade/
